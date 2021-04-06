@@ -31,13 +31,13 @@ class Pages extends Controller {
 
     }
 
-    public function result()
+    public function moncv()
     {
         $data = [
-            'title' => 'result'
+            'title' => 'Mon CV'
         ];
 
-        $this->view('main/result', $data);
+        $this->view('main/moncv', $data);
     }
 
     
