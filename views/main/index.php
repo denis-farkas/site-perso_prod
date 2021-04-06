@@ -161,9 +161,9 @@
 					<div class="intro-table intro-table-third">
 						<h5 class="white heading">Qui-suis je?</h5>
 						<div class="owl-testimonials bottom">
-							<div class="item mt-3 text-center">
+							<div class="item mt-1 text-center">
 								<h5 class="white heading content"><i>En reconversion Dev-Web en France, aprés avoir été anthropologue social et culturel, en Equateur, pendant 20 ans.</i></h5>
-								<a href="<?php echo WWW_ROOT; ?>pages/moncv" class="btn btn-white-fill expand">Mon CV</a>
+								<a href="<?php echo WWW_ROOT; ?>pages/moncv" class="btn btn-white-fill expand mb-1">Mon CV</a>
 								
 							</div>
 							<div class="item mt-3">
