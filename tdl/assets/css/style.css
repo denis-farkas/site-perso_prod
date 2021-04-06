@@ -1,0 +1,155 @@
+#banner {
+    
+    text-align: center;
+    background-image:url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+    
+}
+
+.page-header h1{
+    margin-top:3em;
+    font-size:5em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.52);
+}
+
+.h2 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.52);
+    margin-top: -0.27em;
+    
+}
+
+.img-small
+{
+    margin:2em;
+    width:70%;
+}
+
+a , a:hover{
+    text-decoration: none;
+}
+
+.align-right{
+    padding-left: 15em;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 55px;
+    right: 40px;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form button {
+    background-color: #8e44ad;
+    border: 2px solid #8e44ad;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.white{
+    color: white;
+}
+
+.delButton{
+    height: 30px !important;
+    width: 30px !important;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:red;
+    color:white;
+    border:none;
+}
+
+.upButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.addButton{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border:none;
+    height: 30px;
+    width:30px;
+}
+
+#addNewTache input{
+    min-width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
