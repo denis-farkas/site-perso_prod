@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Titre du document</title>
+    <title>denis Farkas - Dev Web</title>
   </head>
   <body>
-    <h1>Exemple PDF avec iframe</h1>
+    <h1>Denis Farkas</h1>
     <iframe src="<?php echo WWW_ROOT; ?>public/Cv_denis-farkas.pdf" width="100%" height="800px">
     </iframe>
   </body>
