@@ -23,7 +23,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
-					<li><a href="https://www.linkedin.com/in/denis-farkas-0b8461124" class="navbar-brand"><img src="<?php echo WWW_ROOT; ?>public/img/linked.jpg" data-active-url="<?php echo WWW_ROOT; ?>public/img/linked.jpg" alt="linkedin"></a></li>
+					<li><a href="https://www.linkedin.com/in/denis-farkas-0b8461124"><img src="<?php echo WWW_ROOT; ?>public/img/linked.jpg" data-active-url="<?php echo WWW_ROOT; ?>public/img/linked.jpg" alt="linkedin"></a></li>
 					<li></li>
 					<li><a href="#intro">Intro</a></li>
                     <li><a href="#projets">Projets</a></li>
