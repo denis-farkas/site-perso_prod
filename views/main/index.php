@@ -106,7 +106,7 @@
 										<h5 class="white">Javascript / ES6</h5>
 									</div>
 									<div class="col-xs-6 text-right">
-										<h5 class="white">En cours</h5>
+										<h5 class="white">&#x2714;</h5>
 									</div>
 								</div>
 								<div class="schedule-row row">
