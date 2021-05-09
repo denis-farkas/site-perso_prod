@@ -153,7 +153,10 @@
 						<div class="bottom">
 							<h4 class="white heading small-heading no-margin regular">CONTACTEZ-NOUS</h4>
 							<h4 class="white heading small-pt">(projets, maintenances,..)</h4>
+							<div class="row">
 							<a href="#contacts" class="btn btn-white-fill expand">Contact</a>
+							<a href="www.linkedin.com/in/denis-farkas-0b8461124" class="navbar-brand"><img src="<?php echo WWW_ROOT; ?>public/img/linked.jpg" data-active-url="<?php echo WWW_ROOT; ?>public/img/linked.jpg" alt="linkedin"></a>
+							</div>
 						</div>
 					</div>
 				</div>
