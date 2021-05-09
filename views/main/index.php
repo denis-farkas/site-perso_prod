@@ -23,6 +23,8 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="https://www.linkedin.com/in/denis-farkas-0b8461124" class="navbar-brand"><img src="<?php echo WWW_ROOT; ?>public/img/linked.jpg" data-active-url="<?php echo WWW_ROOT; ?>public/img/linked.jpg" alt="linkedin"></a></li>
+					<li></li>
 					<li><a href="#intro">Intro</a></li>
                     <li><a href="#projets">Projets</a></li>
 					<li><a href="#contacts">Contacts</a></li>
@@ -165,7 +167,7 @@
 						<h5 class="white heading">Qui-suis je?</h5>
 						<div class="owl-testimonials bottom">
 							<div class="item mt-1 text-center">
-							<a href="https://www.linkedin.com/in/denis-farkas-0b8461124" class="navbar-brand"><img src="<?php echo WWW_ROOT; ?>public/img/linked.jpg" data-active-url="<?php echo WWW_ROOT; ?>public/img/linked.jpg" alt="linkedin"></a>
+							
 							
 								<h5 class="white heading content"><i>En reconversion Dev-Web en France, aprés avoir été anthropologue social et culturel, en Equateur, pendant 20 ans.</i></h5>
 								<a href="<?php echo WWW_ROOT; ?>pages/moncv" class="btn btn-white-fill expand mb-1">Mon CV</a>
