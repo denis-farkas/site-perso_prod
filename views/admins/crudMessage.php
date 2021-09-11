@@ -56,12 +56,10 @@ require(ROOT . 'views/includes/head.php');
 
                 <?php
 
-                foreach ($data['message'] as $message) {
+                foreach ($data['Message'] as $message) {
                     echo '
                                         <table class="table table-hover">
-                                       
                                         <tbody>
-                                        
                                         <tr> ID :' . $message->id_contact . '</tr>
                                         <br>
                                         <label for="pr"><h4>Date: </h4></label>
@@ -73,13 +71,13 @@ require(ROOT . 'views/includes/head.php');
                                         <br>
 
                                         <label for="presu">Nom: </label>
-                                        <tr>' . $message->nom . '</tr>
+                                        <tr id="presu">' . $message->nom . '</tr>
                                         <br>
                                         <label for="presen">Email: </label>
-                                        <tr>' . $message->email . '</tr>
+                                        <tr id="presen">' . $message->email . '</tr>
                                         <br>
                                         <label for="message">Message: </label>
-                                        <tr>' . $message->email . '</tr>
+                                        <tr id="message">' . $message->message . '</tr>
                                         </tbody>
                                         </table> 
                                         <br>';
