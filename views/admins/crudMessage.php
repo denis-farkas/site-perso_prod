@@ -58,29 +58,27 @@ require(ROOT . 'views/includes/head.php');
 
                 foreach ($data['Message'] as $message) {
                     echo '
-                                        <table class="table table-hover">
-                                        <tbody>
-                                        <tr> ID :' . $message->id_contact . '</tr>
-                                        <br>
-                                        <label for="pr"><h4>Date: </h4></label>
-                                        <tr id="pr">' . $message->date_registre . '"></tr>
-                                        
-                                        <br>
-                                        <label for="sr"><h4>Civilité: </h4></label>
-                                        <tr id="sr">' . $message->civilite . '"></tr>
-                                        <br>
-
-                                        <label for="presu">Nom: </label>
-                                        <tr id="presu">' . $message->nom . '</tr>
-                                        <br>
-                                        <label for="presen">Email: </label>
-                                        <tr id="presen">' . $message->email . '</tr>
-                                        <br>
-                                        <label for="message">Message: </label>
-                                        <tr id="message">' . $message->message . '</tr>
-                                        </tbody>
-                                        </table> 
-                                        <br>';
+                        <table class="table table-hover">
+                        <tbody>
+                        <tr> ID :' . $message->id_contact . '</tr>
+                        <br>
+                        <label for="pr"><h4>Date: </h4></label>
+                        <tr id="pr">' . $message->date_registre . '</tr>                        
+                        <br>
+                        <label for="sr"><h4>Civilité: </h4></label>
+                        <tr id="sr">' . $message->civilite . '</tr>
+                        <br>
+                        <label for="presu">Nom: </label>
+                        <tr id="presu">' . $message->nom . '</tr>
+                        <br>
+                        <label for="presen">Email: </label>
+                        <tr id="presen">' . $message->email . '</tr>
+                        <br>
+                        <label for="message">Message: </label>
+                        <tr id="message">' . $message->message . '</tr>
+                        </tbody>
+                        </table> 
+                        <br>';
                 }
                 ?>
 
