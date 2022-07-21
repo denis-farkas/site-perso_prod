@@ -1,22 +1,21 @@
 <?php
-    
-    //Database paramétres
-    define('DB_HOST', 'localhost'); 
-    define('DB_USER', 'denis-farkas'); 
-    define('DB_PASS', 'zmXdCmP7'); 
-    define('DB_NAME', 'denis-farkas_reservationsalles'); 
 
-    //APPROOT
-    define('APPROOT', dirname(dirname(__FILE__)));
+//Database paramétres
+define('DB_HOST', 'localhost');
+define('DB_USER', 'cp1306500p12_defar');
+define('DB_PASS', 'o^pITcgLWhsU');
+define('DB_NAME', 'cp1306500p12_reservationsalles');
 
-   
-   
-DEFINE('URLROOT', "https://denis-farkas.students-laplateforme.io/reservation-salles" );
-    
-    
-   
+//APPROOT
+define('APPROOT', dirname(dirname(__FILE__)));
 
-    
-    //nom du site
-    define('SITENAME', 'Réservations de salles');
-?>
+
+
+DEFINE('URLROOT', "https://portefolio.cloudefar.fr/reservation-salles");
+
+
+
+
+
+//nom du site
+define('SITENAME', 'Réservations de salles');

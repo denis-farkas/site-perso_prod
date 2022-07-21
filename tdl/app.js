@@ -98,7 +98,7 @@ function loadSignup(){
         }
     });
 
-    xhr.open("POST", "https://denis-farkas.students-laplateforme.io/tdl/api/signup.php");
+    xhr.open("POST", "https://www.portefolio.cloudefar.fr/tdl/api/signup.php");
     xhr.setRequestHeader("Content-Type", "application/json");
 
     xhr.send(form_data);
@@ -133,7 +133,7 @@ var serializeForm = function (form) {
         }
     });
 
-    xhr.open("POST", "https://denis-farkas.students-laplateforme.io/tdl/api/login.php");
+    xhr.open("POST", "https://www.portefolio.cloudefar.fr/tdl/api/login.php");
     xhr.setRequestHeader("Content-Type", "text/plain");
 
     xhr.send(form_data);

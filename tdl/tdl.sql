@@ -20,8 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `tdl`
 --
-CREATE DATABASE IF NOT EXISTS `tdl` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `tdl`;
+
 
 -- --------------------------------------------------------
 

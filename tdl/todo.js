@@ -57,7 +57,7 @@ function listTaches(){
         }
     });
 
-    xhr.open("GET", "https://denis-farkas.students-laplateforme.io/tdl/api/controllers/read.php");
+    xhr.open("GET", "https://www.portefolio.cloudefar.fr/tdl/api/controllers/read.php");
     xhr.setRequestHeader("Content-Type", "application/json");
    
 
@@ -81,7 +81,7 @@ function addTache(){
         }
     });
 
-    xhr.open("POST", "https://denis-farkas.students-laplateforme.io/tdl/api/controllers/create.php");
+    xhr.open("POST", "https://www.portefolio.cloudefar.fr/tdl/api/controllers/create.php");
     xhr.setRequestHeader("Content-Type", "application/json");
 
     xhr.send(form_data);
@@ -101,7 +101,7 @@ function addTache(){
     }
     });
 
-    xhr.open("POST", 'https://denis-farkas.students-laplateforme.io/tdl/api/controllers/update.php?id='+idT);
+    xhr.open("POST", 'https://www.portefolio.cloudefar.fr/tdl/api/controllers/update.php?id='+idT);
 
     xhr.send();
    } 
@@ -119,7 +119,7 @@ function addTache(){
     }
     });
 
-    xhr.open("POST", 'https://denis-farkas.students-laplateforme.io/tdl/api/controllers/delete.php?id='+idT);
+    xhr.open("POST", 'https://www.portefolio.cloudefar.fr/tdl/api/controllers/delete.php?id='+idT);
 
     xhr.send();
    }  
